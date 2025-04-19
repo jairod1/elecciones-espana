@@ -2,13 +2,13 @@
 
 En este trabajo practico, haremos un analisis exploratorio de un predictor para elecciones generales en España.
 
-Tenemos por cotejar ----dos hipótesis----:
+Tenemos por cotejar dos hipótesis:
 
 0) Hemos observado que, a primera vista, en las elecciones generales en las que más del 40% del censo electoral ha votado para las 14:00, la izquierda (PSOE) parece ser capaz de formar gobierno mucho más a menudo que la derecha (PP). De ser así, este sería un predictor valioso, que nos permitiría conocer anticipadamente los resultados de unas elecciones generales horas antes de que finalicen.
 
  Nuestra Hipótesis Nula (h0) en este caso, será la siguiente: Intentaremos demostrar que este dato -no- predice con certeza resultados electorales. Nuestra Hipótesis Alternativa (h1) será que si los predice.
 
-    Para ello, utilizaremos coeficientes de correlacion y diagramas de dispersión.
+   Para ello, utilizaremos coeficientes de correlacion y diagramas de dispersión.
 
 -----------------------------------------------------------------------------------------------------------------------------------------
  
@@ -57,8 +57,4 @@ Con esto concluirá el proceso pipeline.
 # 2. Notebooks y dashboards
 En la carpeta 'notebooks', podremos visualizar los Jupyter Notebooks utilizados para realizar cada uno de los pasos del proceso Pipeline.
 
-En la carpeta 'dashboards', incluiremos el archivo Proyecto1.pbix de PowerBI con las estadísticas generadas y varias transformaciones propias de la aplicación. Además añadiremos una carpeta de mapas interactivos .html, que desafortunadamente no hemos podido incluir en el .pbix.
-
-# 3. Licencia
-
-Este proyecto tendrá una licencia CreativeCommons. Eso implicará que se puede compartir libremente, siempre y cuando se reconozca la autoría al usuario de GitHub jairod1. Todas las imágenes a su vez tienen licencia CC.
+En la carpeta 'dashboards', incluiremos el archivo Proyecto1.pbix de PowerBI con las estadísticas generadas y varias transformaciones propias de la aplicación.
