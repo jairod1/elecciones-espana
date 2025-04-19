@@ -1,0 +1,18 @@
+# Librerías necesarias para el 
+# Se adjunta comentada la versión de la librería utilizada para las pruebas.
+# Descomentar en caso de incompatibilidades.
+# Librerías generales
+pandas #2.2.3
+numpy #2.2.2
+# Lectura de PDFs
+openpyxl #3.1.5
+PyMuPDF #1.25.5
+# Creación de visualizaciones y estadísticas
+matplotlib #3.10.0
+seaborn #0.13.2
+statsmodels #0.14.4
+scikit-learn #1.6.1
+# Creación de mapas
+geopandas #1.0.1
+folium #0.19.5
+shapely #2.1.0
