@@ -535,7 +535,7 @@ def run_all_statistics():
     plt.xlabel("Partido que formó gobierno", labelpad=15)
     plt.ylabel("Total de elecciones ganadas", labelpad=15)
     plt.xticks(rotation=45)
-    plt.legend(['Alta (+40% votantes a las 14h)', 'Baja (- 40% votantes a las 14h)'], title="Participación")
+    plt.legend(['Baja (- 40% votantes a las 14h)', 'Alta (+40% votantes a las 14h)'], title="Participación")
     
     # Añadir etiquetas centradas
     for p in ax.patches:
@@ -595,7 +595,7 @@ def run_all_statistics():
     plt.xlabel("Partido que formó gobierno", labelpad=15)
     plt.ylabel("Total de elecciones ganadas", labelpad=15)
     plt.xticks(rotation=45)
-    plt.legend(['Alta (+60% votantes a las 18h)', 'Baja (- 60% votantes a las 18h)'], title="Participación")
+    plt.legend(['Baja (- 60% votantes a las 18h)', 'Alta (+60% votantes a las 18h)'], title="Participación")
     
     # Etiquetas centradas
     for p in ax.patches:
@@ -654,7 +654,7 @@ def run_all_statistics():
     plt.xlabel("Partido que formó gobierno", labelpad=15)
     plt.ylabel("Total de elecciones ganadas", labelpad=15)
     plt.xticks(rotation=45)
-    plt.legend(['Alta (+70% votantes en total)', 'Baja (- 70% votantes en total)'], title="Participación")
+    plt.legend(['Baja (- 70% votantes en total)', 'Alta (+70% votantes en total)'], title="Participación")
     
     # Etiquetas centradas
     for p in ax.patches:
